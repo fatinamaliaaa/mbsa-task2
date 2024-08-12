@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url('image/MBSA_BG.png');
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(24, 46, 169);
+    color: white;
+    padding: 2px 50px;
+    letter-spacing: 1;
+    line-height: 1;
+}
+header img {
+    height: 150px;
+    margin-right: 50px;
+}
+#form{
+    background-color: rgba(196, 219, 255, 0.875);
+    width: 60%;
+    border-radius: 6px;
+    margin: 50px auto;
+    padding: 40px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+input{
+    width: 90%;
+    border-radius: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 6px;
+    text-align: left; 
+}
+#form input[type="radio"] {
+    width: auto;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+#btn{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 46, 169);
+    border-radius: 100px;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    
+
+} 
+#welcome-message{
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000; /* green color */
+}
